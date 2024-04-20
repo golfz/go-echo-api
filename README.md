@@ -20,3 +20,12 @@ go get github.com/labstack/echo/v4
 ```bash
 go run main.go
 ```
+
+## 3. ทดสอบด้วย Postman
+
+3.1 download postman จาก [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
+
+3.2 import Postman Collection จากไฟล์ `go-echo.postman_collection.json`
+
+3.3 ทดสอบด้วย Postman Collection ที่ import มา
+

@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "534136bc-fabc-4cab-9453-a83a7df3578a",
+		"name": "go-echo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "537071",
+		"_collection_link": "https://iamgolfz.postman.co/workspace/Test~2ac075d7-5b8d-4b26-9e67-32e66781f7b5/collection/537071-534136bc-fabc-4cab-9453-a83a7df3578a?action=share&source=collection_link&creator=537071"
+	},
+	"item": [
+		{
+			"name": "get book list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1324/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1324",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add a book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1324/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1324",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update a book",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"something\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1324/books/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1324",
+					"path": [
+						"books",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get a book",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1324/books/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1324",
+					"path": [
+						"books",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete a book",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1324/books/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1324",
+					"path": [
+						"books",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
